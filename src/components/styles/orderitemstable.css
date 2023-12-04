@@ -1,0 +1,85 @@
+table{
+    border-collapse: collapse;
+}
+td, th{
+    text-align: left;
+    margin-right: 10px;
+
+}
+th{
+    padding: 10px 0;
+}
+td{
+    padding: 20px 0;
+}
+tr{
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+}
+#tablehdr{
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 5px;
+}
+#orderitems_table{
+    font-size: 14px;
+    width: 100%;
+}
+#productheader{
+    width: 400px;
+}
+#brandheader{
+    width: 150px;
+}
+#priceheader{
+    width: 150px;
+}
+#quantityheader{
+    width: 150px;
+}
+#totalheader{
+    width: 100px;
+}
+#statusheader{
+    width: 120px;
+}
+#btnsheader{
+    width: 200px;
+}
+.orderitem_btns_cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#missing_dialog_cont{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border: 1px black solid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}
+#missing_hdr{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#missing_msg{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+#missing_btns{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
+#nobtn, #yesbtn{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}

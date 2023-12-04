@@ -1,0 +1,28 @@
+#orderdetails_cont{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 10px;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 5px;
+}
+#orderdetails_cont > section{
+    border-right: 1px rgba(0, 0, 0, 0.2) solid;
+    margin-left: 15px;
+}
+#orderdetails_cont > section > label{
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#orderdetails_cont > section > p{
+    font-size: 14px;
+    font-weight: 500;
+}
+#category_grid{
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    grid-template-rows: 20px 20px;
+    row-gap: 6px;
+    column-gap: 10px;
+}

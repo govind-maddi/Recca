@@ -1,0 +1,53 @@
+#orderidentity_cont{
+    width: auto;
+    max-width: 100%;
+    padding: 5px 0;
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
+#orderidentity_items_cont{
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#orderitem1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#orderitem2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#orderitem1 > section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#orderidentitynav{
+    font-size: 14px;
+}
+#orderidentityheader{
+    font-size: 23px;
+    font-weight: 500;
+}
+#orderitem2 > section > button{
+    padding: 8px 19px;
+    border: 1.7px #1e633f solid;
+    text-align: center;
+    border-radius: 20px;
+}
+#orderback{
+    background-color: #ffffff;
+    color: #1e633f;
+    margin-right: 10px;
+}
+#orderapprove{
+    background-color: #1e633f;
+    color: #ffffff;
+}

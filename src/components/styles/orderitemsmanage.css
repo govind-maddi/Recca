@@ -1,0 +1,45 @@
+#orderitemsmanage_cont{
+    display: flex;
+    justify-content: space-between;
+}
+#orderitem_search_cont{
+    width: 35%;
+    position: relative;
+}
+#orderitem_search_cont > input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+    outline: none;
+}
+#orderitem_search_cont > input::placeholder{
+
+}
+#orderitem_search_cont > figure{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+#orderitem_add_print_cont{
+    display: flex;
+    column-gap: 20px;
+    justify-content:space-evenly ;
+    align-items: center;   
+}
+#orderitem_add_print_cont > button{
+    padding: 8px 19px;
+    border: 1.7px #1e633f solid;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #1e633f;
+    cursor: pointer;
+}
